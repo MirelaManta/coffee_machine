@@ -1,5 +1,5 @@
-This is a simplified version of how a coffee machine is programed. 
-Here, the customer has different drinks which he can choose from and the machine is accepting payment in coins 
-(quarters, dimes, nickels and pennies).  
-If the resources(money, water, milk, coffee) are enough, the chosen drink will be made and resources deducted, else some message will be displayed on the screen.
-For the maintenance persons there are some others functionalities e.g. display report or turn off the machine.
+# Coffee Machine
+This is a simple command-line program that simulates a coffee machine. The program allows customers to choose from three different drinks: espresso, latte, and cappuccino. Additionally, for maintenance people, it can provide a report with the current resources, which include water, milk, coffee, and money, and it can turn the machine off.
+## How it works
+The machine tracks its inventory and profit automatically, and will alert the buyer if there are not enough resources to make their selected drink. The customer can input their payment by specifying the number of quarters, dimes, nickels, and pennies they insert. If the payment is sufficient, the machine deducts the required ingredients from its resources, gives the user any necessary change, and dispenses the selected drink.
+
